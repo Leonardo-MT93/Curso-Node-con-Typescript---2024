@@ -6,9 +6,9 @@
 // console.log(process.env)
 // console.log(SHELL, HOMEBREW_PREFIX);
 
-const characters = ['Finn', 'Jake', 'Princess Bubblegum'];
+export const characters = ['Flash', 'Superman', 'Batman'];
 
 
-const [, , princess] = characters;
+const [, , batman] = characters;
 
-// console.log(princess)
+// console.log(batman)

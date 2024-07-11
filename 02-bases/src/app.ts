@@ -12,15 +12,15 @@
 // console.log(johnDoe)
 
 // const getPokemonById = require('./js-foundation/06-promises')
-import { getPokemonNameById } from './js-foundation/06-promises';
-import { buildLogger } from './plugins/logger.plugin';
+// import { getPokemonNameById } from './js-foundation/06-promises';
+// import { buildLogger } from './plugins/logger.plugin';
 
-getPokemonNameById(6)
-    .then((pokemon) => console.log(pokemon))
-    .catch((error) => console.error(error))
-    .finally(() => console.log('Pokemon fetched!'));
+// getPokemonNameById(6)
+//     .then((pokemon) => console.log(pokemon))
+//     .catch((error) => console.error(error))
+//     .finally(() => console.log('Pokemon fetched!'));
 
-const logger = buildLogger('app.js'); //archivo que mando a llamar
+// const logger = buildLogger('app.js'); //archivo que mando a llamar
 
-logger.log('Hola mundooooo 111');
-logger.error('Esto es un error')
+// logger.log('Hola mundooooo 111');
+// logger.error('Esto es un error')
