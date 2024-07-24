@@ -22,4 +22,13 @@ test('getAge shloud return current age', () => {
     expect(age).toBe(calculatedAge)
 })
 
+test('getage shloud return 0 years', ()=> {
+
+    const spy = jest.spyOn(Date.prototype, 'getFullYear').mockReturnValue(1990);
+
+    const birthdate = '1990-10-21'
+
+})  
+
+
 })
